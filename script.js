@@ -6,7 +6,7 @@ function appendToOutput(value) {
 
 function calculate() {
     if (output.textContent === "1+1") {
-        output.textContent = "I LOVE YOU JONY MY FRIEND";
+        output.textContent = "Its obviously 2 my friend";
     } else {
         
         try {
