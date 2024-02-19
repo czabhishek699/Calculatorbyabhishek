@@ -6,7 +6,7 @@ function appendToOutput(value) {
 
 function calculate() {
     if (output.textContent === "4*6") {
-        output.textContent = "WISH FOR YOUR SUCCESS ARCKRITY\uD83D\uDE09";
+        output.textContent = "24 hau\uD83D\uDE09";
     } else {
         try {
             const result = eval(output.textContent);
