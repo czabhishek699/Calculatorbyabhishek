@@ -5,20 +5,25 @@ function appendToOutput(value) {
 }
 
 function calculate() {
-    if (output.textContent === "1+1") {
-        output.textContent = "It's obviously 2 yrr";
+    if (output.textContent === "4*6") {
+        output.textContent = "WISH FOR YOUR SUCCESS ARCKRITY\uD83D\uDE09";
     } else {
-        
         try {
             const result = eval(output.textContent);
             output.textContent = result;
         } catch (error) {
-            output.textContent = "Error";
+            output.textContent = "Error vayo tw solti";
         }
     }
-}function deleteLastCharacter() {
+}
+
+function deleteLastCharacter() {
     let currentOutput = output.textContent;
     if (currentOutput.length > 0) {
         output.textContent = currentOutput.slice(0, -1); 
     }
+}
+
+function clearOutput() {
+    output.textContent = ""; // Clear the output text
 }
