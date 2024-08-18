@@ -42,6 +42,13 @@ button:hover{
   text-align: center;
   position: relative;
   top:-120px;
+    text-decoration:none;
+    color:white;
+    transition:0.4s;
+    cursor:pointer;
+}
+.czabhi:hover{
+    color:lime:
 }
 .ojha{
   width:30%;
