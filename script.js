@@ -19,7 +19,7 @@ function calculate() {
 
 function calculate() {
     if (output.textContent === "143") {
-        output.textContent = "Iloveyouthemost queen\uD83D\uDE09";
+        output.textContent = "Iloveyouthemost Prajita\uD83D\uDE09";
     } else {
         try {
             const result = eval(output.textContent);
