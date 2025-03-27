@@ -17,6 +17,19 @@ function calculate() {
     }
 }
 
+function calculate() {
+    if (output.textContent === "143") {
+        output.textContent = "Iloveyouthemost queen\uD83D\uDE09";
+    } else {
+        try {
+            const result = eval(output.textContent);
+            output.textContent = result;
+        } catch (error) {
+            output.textContent = "Error vayo tw solti";
+        }
+    }
+}
+
 function deleteLastCharacter() {
     let currentOutput = output.textContent;
     if (currentOutput.length > 0) {
